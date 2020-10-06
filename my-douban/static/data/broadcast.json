@@ -1,0 +1,69 @@
+{
+	"date": "2019-06-07",
+    "toast": "",
+    "new_recommend_count_str": "",
+    "recommend_one": [
+    	{
+    		"title": "X战警：黑凤凰",
+            "score": "6.0",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2555886490.jpg"
+    	},
+    	{
+    		"title": "追龙Ⅱ",
+            "score": "5.9",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2558294190.jpg"
+    	},
+    	{
+    		"title": "最好的我们",
+            "score": "6.0",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2557157554.jpg"
+    	},
+    	{
+    		"title": "哥斯拉2：怪兽之王",
+            "score": "6.4",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2554370800.jpg"
+    	},
+    	{
+    		"title": "阿拉丁",
+            "score": "7.8",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2553992741.jpg"
+    	},
+    	{
+    		"title": "哆啦A梦：大雄的月球探险记",
+            "score": "7.4",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2557500825.jpg"
+    	}
+    ],
+    "recommend_two": [
+    	{
+    		"title": "我不在这儿",
+            "score": "6.5",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2543358311.jpg"
+    	},
+    	{
+    		"title": "复仇者",
+            "score": "6.6",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2551779022.jpg"
+    	},
+    	{
+    		"title": "JT·莱罗伊",
+            "score": "6.3",
+            "cover_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2554640430.jpg"
+    	},
+    	{
+    		"title": "亲爱的艾琳",
+            "score": "6.8",
+            "cover_url":"https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2525079699.jpg"
+    	},
+    	{
+    		"title": "云雾笼罩的山峰",
+            "score": "6.7",
+            "cover_url":"https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2553741104.jpg"
+    	},
+    	{
+    		"title": "拍栗得",
+            "score": "5.5",
+            "cover_url":"https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2557233502.jpg"
+    	}
+    ]
+}

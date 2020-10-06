@@ -1,0 +1,113 @@
+{
+	"code": "0000",
+	"toast": "",
+	"new_recommend_count_str": "",
+	"group": [
+		{
+			"title": "华语新碟",
+			"group_list": [
+				{
+					"title": "五月天 人生无限公司 Life Live 好友加班篇",
+					"score": "8.4",
+					"author":"五月天",
+					"cover_url": "https://img1.doubanio.com/view/subject/m/public/s32319988.jpg"
+				}, {
+					"title": "我好嗎？－太陽如常升起 (預購版)",
+					"score": "5.9",
+					"author":"梁静茹",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32300611.jpg"
+				}, {
+					"title": "路過人間",
+					"score": "7.5",
+					"author":"王菲",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32303633.jpg"
+				}, {
+					"title": "Vanilla Villa",
+					"score": "7.4",
+					"author":"Villa",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32303820.jpg"
+				}, {
+					"title": "没有鸟鸣，关上窗吧",
+					"score": "7.9",
+					"author":"朴树",
+					"cover_url": "https://img1.doubanio.com/view/subject/m/public/s32319187.jpg"
+				}, {
+					"title": "人生無限公司 LiFE LiVE",
+					"score": "8.5",
+					"author":"萧敬腾",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32326516.jpg"
+				}
+			]
+		}, {
+			"title": "欧美新碟",
+			"group_list": [
+				{
+					"title": "She Is Coming",
+					"score": "7.8",
+					"author":"Marshmello",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32333452.jpg"
+				}, {
+					"title": "Dedicated",
+					"score": "8.3",
+					"author":"Lenka",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32298390.jpg"
+				}, {
+					"title": "IGOR",
+					"score": "8.3",
+					"author":"Olly Murs",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32323764.jpg"
+				}, {
+					"title": "Happiness Begins",
+					"score": "6.7",
+					"author":"Autumn Hill",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32303174.jpg"
+				}, {
+					"title": "Reward",
+					"score": "8.0",
+					"author":"Jason Chen",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32265716.jpg"
+				}, {
+					"title": "ZUU",
+					"score": "7.3",
+					"author":"Lily Kershaw",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32332826.jpg"
+				}
+			]
+		}, {
+			"title": "日韩新碟",
+			"group_list": [
+				{
+					"title": "24℃",
+					"score": "6.7",
+					"author":"Sara",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32337100.jpg"
+				}, {
+					"title": "三毒史(通常盤)",
+					"score": "7.4",
+					"author":"金在中",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32309472.jpg"
+				}, {
+					"title": "NCT #127 WE ARE SUPERHUMAN",
+					"score": "7.3",
+					"author":"金泫雅",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32319591.jpg"
+				}, {
+					"title": "VOICE",
+					"score": "7.3",
+					"author":"滨崎步",
+					"cover_url": "https://img3.doubanio.com/view/subject/m/public/s32313372.jpg"
+				}, {
+					"title": "WE",
+					"score": "6.7",
+					"author":"朴宇田多光",
+					"cover_url": "https://img1.doubanio.com/view/subject/m/public/s32320439.jpg"
+				}, {
+					"title": "A Walk to Remember",
+					"score": "6.3",
+					"author":"玉置成实",
+					"cover_url": "https://img1.doubanio.com/view/subject/m/public/s32337097.jpg"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60秒倒计</title>
+</head>
+<body>
+    <input type="button" value="获取倒计时" id="btn">
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script>
+        var timer;
+        var time=60
+        console.log(timer);
+        var btn=document.getElementById('btn')
+        $('#btn').click(()=>{
+            btn.value='重新发送'+ time
+            if(!timer){
+                timer=setInterval(()=>{
+                    if(time==1){
+                        clearInterval(timer)
+                        timer=0
+                        btn.value='重新获取验证码'
+                        time=60
+                    }else{
+                        time--
+                        btn.value='重新发送'+time
+                    }
+                },1000)
+            }
+        })
+    </script>
+</body>
+</html>

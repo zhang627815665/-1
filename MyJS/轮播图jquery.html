@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery轮播</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        .box{
+          width: 820px;
+          height: 460px;
+          overflow: hidden;
+          position: relative;
+          margin: 10px auto;
+        }
+        .nav{
+            position: absolute;
+            bottom: 20px;
+            right: 40%;
+        }
+        .nav li{
+            list-style: none;
+            float: left;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            background: fuchsia;
+            text-align: center;
+            margin-right: 10px;
+            border-radius: 20px;
+        }
+        .nav .active{
+            background: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="轮播img/canon.jpg" alt="">
+        <img src="轮播img/canon-001.jpg" alt="">
+        <img src="轮播img/canon-002.jpg" alt="">
+        <img src="轮播img/canon-003.jpg" alt="">
+        <ul class="nav">
+            <li class="active">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+<script src="js/jquery-1.12.4.js"></script>
+    <script>
+      var crr=0;
+       function fn(){
+           crr++;
+           for(var i=0;i<$('.box img').length;i++){
+               $('.box img').eq(i).hide()
+               $('.box .nav li').addClass('')
+           }if(crr>$('.box img').length -1){
+               crr=0
+           }
+           $('.box img').eq(crr).show();
+           $('.box .nav li').removeClass('active')
+           $('.box .nav li').eq(crr).addClass('active')
+       }
+        setInterval(fn, 1000)
+    </script>
+</body>
+</html>
+<!-- 
+    思路：
+    设计一个大盒子，只显示一张图片，其他的溢出隐藏
+    循环遍历一开始让全部隐藏
+    做判断，选中哪个索引让那个显示
+ -->

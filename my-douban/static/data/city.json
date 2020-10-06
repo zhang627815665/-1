@@ -1,0 +1,118 @@
+{
+    "code": "0000",
+    "toast": "",
+    "new_recommend_count_str": "",
+    "city": [
+        {
+            "title": "音乐",
+            "city_list": [
+                {
+                    "img_url": "https://img3.doubanio.com/pview/event_poster/small/public/cf49fedc0db9773.jpg",
+                    "group_name": " 美国另类摇滚乐队The Score2019新专辑巡演深圳站 ",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨河大道9289号KK ONE购物 "
+                },
+                {
+                    "img_url": "https://img3.doubanio.com/pview/event_poster/small/public/16d9a592060fa13.jpg",
+                    "group_name": "我愛你中國 ——周雲蓬與樂隊2019巡演深圳站",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨河大道9289号KK ONE购物 "
+                },
+                {
+                    "img_url": "https://img3.doubanio.com/pview/event_poster/small/public/158db999bd0dade.jpg",
+                    "group_name": "房东的猫深圳演唱会 ",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨河大道9289号KK ONE购物 "
+                }
+            ],
+            "city_modol":[
+            	{
+            		"model":"最热"
+            	},
+            	{
+            		"model":"小型现场"
+            	},
+            	{
+            		"model":"音乐会"
+            	}
+            ] 
+        },
+        {
+            "title": "戏剧",
+            "city_list": [
+                {
+                    "img_url": "https://img3.doubanio.com/pview/event_poster/small/public/21aa03c4e554663.jpg",
+                    "group_name": "荒诞喜剧《一窝马蜂》 ",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨河大道9289号KK ONE购物 "
+                },
+                {
+                    "img_url": "https://img3.doubanio.com/pview/event_poster/small/public/5b7e1451080a793.jpg",
+                    "group_name": "原版音乐剧《猫》CATS ",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨河大道9289号KK ONE购物 "
+                },
+                {
+                    "img_url": "https://img1.doubanio.com/pview/event_poster/small/public/4fc14e5e06e0c2b.jpg",
+                   "group_name": "《你若安好，那还得了》  ",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨河大道9289号KK ONE购物 "
+                }
+            ],
+            "city_modol":[
+            	{
+            		"model":"最热"
+            	},
+            	{
+            		"model":"话剧"
+            	},
+            	{
+            		"model":"音乐剧"
+            	}
+            ] 
+        },
+        {
+            "title": "聚会",
+            "city_list": [
+                {
+                    "img_url": "https://img3.doubanio.com/pview/event_poster/small/public/8c8399a01a5e96e.jpg",
+                    "group_name": "六月 , 加入海归の圈子,立夏派对 体验有趣的深圳玩乐故事 ",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨 河大道9289号 KK ONE购物 "
+                },
+                {
+                    "img_url": "https://img3.doubanio.com/pview/event_poster/small/public/944d8f21bc69712.jpg",
+                    "group_name": "咖啡和油画一样都不能少︱周末聚会",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨河大道9289号KK ONE购物 "
+                },
+                {
+                    "img_url": "https://img1.doubanio.com/pview/event_poster/small/public/bfb98fb85109edb.jpg",
+                    "group_name": "被抑郁吞噬，我要如何自救？ | 心理救助站",
+                    "group_member": "6",
+                    "group_time": "6月19日 周三 20:00-22:00",
+                    "group_address": "深圳福田区滨河大道9289号KK ONE购物 "
+                }
+            ],
+            "city_modol":[
+            	{
+            		"model":"最热"
+            	},
+            	{
+            		"model":"生活"
+            	},
+            	{
+            		"model":"集市"
+            	}
+            ] 
+        }
+    ]
+}

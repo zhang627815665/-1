@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>原生js制作二级菜单</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #nav {
+            width: 800px;
+            height: 50px;
+            line-height: 50px;
+            margin: 20px auto;
+            background-color: darkcyan;
+        }
+
+        ul,
+        ol,
+        li {
+            list-style: none;
+        }
+
+        #nav>ul>li {
+            width: 160px;
+            text-align: center;
+            float: left;
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        .myU {
+            display: none;
+            width: 100px;
+            margin: 0 auto;
+            background-color: lightsteelblue;
+        }
+
+        .myU>li {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li onmouseover="onOver(this)" onmouseout="onOut(this)">
+                <a href="#">公司介绍</a>
+                <ul class="myU">
+                    <li><a href="#">走进我们</a></li>
+                    <li><a href="#">悠久历史</a></li>
+                    <li><a href="#">公司理念</a></li>
+                    <li><a href="#">经理致辞</a></li>
+                </ul>
+            </li>
+            <li><a href="#">产品展示</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">招贤纳士</a></li>
+        </ul>
+    </div>
+
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script>
+
+        function onOver(obj) {
+            var sub_url = obj.getElementsByTagName("ul")
+            sub_url[0].style.display = "block";
+        }
+        function onOut(obj) {
+            var sub_url = obj.getElementsByTagName("ul")
+            sub_url[0].style.display = "none";
+        }
+
+    </script>
+
+
+</body>
+
+</html>

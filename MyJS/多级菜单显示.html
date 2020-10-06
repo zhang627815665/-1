@@ -1,0 +1,90 @@
+<!DOCTYliE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewliort" content="width=device-width, initial-scale=1.0">
+    <title>多级菜单显示</title>
+    <style>
+        #box {
+            position: relative;
+            width: 300px;
+        }
+
+        .box {
+            width: 300px;
+        }
+
+      ul li{
+          list-style: none;
+           width: 25%;
+            text-align: center;
+      }
+        #myindex,
+        #mysholi,
+        #myfind,#mymine {
+            display: none;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div class="box">
+            <ul>
+                <li class="index active a" onclick="fn('myindex')">首页
+                    <ul id="myindex">
+                        <li>首页</li>
+                        <li>聊天</li>
+                        <li>QQ</li>
+                        <li>微信</li>
+                    </ul>
+                </li>
+                <li class="sholi a" onclick="fn('mysholi')">购物
+                    <ul id="mysholi">
+                        <li>购物</li>
+                        <li>聊天</li>
+                        <li>QQ</li>
+                        <li>微信</li>
+                    </ul>
+                </li>
+                <li class="find a" onclick="fn('myfind')">发现
+                    <ul id="myfind">
+                        <li>发现</li>
+                        <li>聊天</li>
+                        <li>QQ</li>
+                        <li>微信</li>
+                    </ul>
+                </li>
+                <li class="mine a" onclick="fn('mymine')">我的
+                    <ul id="mymine">
+                        <li>我的</li>
+                        <li>聊天</li>
+                        <li>QQ</li>
+                        <li>微信</li>
+                    </ul>
+                </li>
+            </ul>            
+        </div>
+    </div>
+    
+    <script>
+      
+    function fn(str){
+        var menu=document.getElementById(str);
+        var dis=menu.style.display;
+        if(dis=='block'){
+            menu.style.display='none'
+           
+        }else{
+             menu.style.display = 'block'           
+        }
+    }
+    </script>
+</body>
+
+</html>
+<!-- 
+    给二级菜单传参，如果displayblock显示就隐藏none，如果隐藏就显示block
+ -->
